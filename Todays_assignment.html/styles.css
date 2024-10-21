@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.bulb-wrapper {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.bulb {
+    width: 60px;
+    height: auto;
+    transition: filter 0.3s;
+}
+
+.bulb.glow {
+    filter: drop-shadow(0 0 15px yellow);
+}
